@@ -1,0 +1,190 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body 
+{
+    width: 100%;
+    float: left;
+    background: #1b1b1b; 
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+#header 
+{
+    width: 100%;
+    float: left;
+    background: #232323;
+    border-bottom: 1px solid #333;
+    position: fixed;
+    top: 0;
+    height: 42px;
+    color: #fff;
+    z-index: 99;
+}
+header#header div#logo img {
+    height: 25px;
+}
+header#header div#logo {
+    margin-top: 8px;
+}
+.left {
+    float: left;
+    display: block;
+}
+.alinhamento {
+    margin: 0 auto;
+    width: 96%;
+    text-align: left;
+    clear: both;
+}
+header#header div#iconMenu span {
+    margin-top: 3px;
+    float: left;
+}
+header#header div#iconMenu {
+    width: 150px;
+    cursor: pointer;
+    float: right;
+    background: #333;
+    border: 1px solid #333;
+    padding: 10px;
+    margin-right: 48px;
+    height: 42px;
+    font-size: 12px;
+}
+body section#content {
+    width: 100%;
+    float: left;
+    margin-top: 57px;
+    overflow: hidden;
+}
+
+.alinhamento {
+    margin: 0 auto;
+    width: 96%;
+    text-align: left;
+    clear: both;
+}
+body section#content section#searchBox {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+body section#content section#searchBox form {
+    background: #2b2b2b;
+    overflow: hidden;
+    border-bottom: 1px solid #76608a;
+    padding: 4px 7px;
+}
+body section#content section#searchBox form input {
+    width: 100%;
+    float: left;
+    background-color:#2b2b2b; ;
+    background-size: 14px!important;
+    background-position: 0 10px!important;
+    border: none;
+    color: #fff;
+    padding: 10px 32px;
+    height: 32px;
+}
+body section#content section.box header {
+    background: #232323;
+    color: #999;
+    min-height: 42px;
+    padding: 26px 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #76608a;
+    font-weight: 300!important;
+}
+body section#content section#containerVideos {
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+body section#content section.box {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    background: #1b1b1b;
+    border: 1px solid #2b2b2b;
+    border-top: 1px solid #333;
+    border-bottom: 4px solid #2b2b2b;
+}
+body section#content section.box section.containerBox {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #232323;
+    color: #fff;
+}
+body section#content section.box div#telas {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+ul
+{
+    list-style: none;
+}
+body section#content section.box div#telas ul li {
+    background: #212121;
+    border: 1px solid #2b2b2b;
+    border-bottom: 1px solid #76608a;
+    width: 19.2%;
+    overflow: hidden;
+    display: inline-table;
+    margin-bottom: 1%;
+    margin-right: 2px !important;
+    text-align: left;
+}
+body section#content section.box div#telas ul li .telaImg {
+    width: 100%;
+    position: relative;
+}
+body section#content section.box div#telas ul li .telaImg .time {
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    opacity: .7;
+    padding: 5px;
+    margin: 3px;
+    color: #fff;
+    border-bottom-right-radius: 3px;
+    font-size: 12px;
+}
+body section#content section.box div#telas ul li a {
+    text-decoration: none;
+    color: #836b98;
+}
+body section#content section.box div#telas ul li .telaImg img {
+    width: 100%;
+    height: 98px;
+    object-fit: cover;
+}
+body section#content section.box div#telas ul li .icon-player-home {
+    position: absolute;
+    width: 24px!important;
+    height: 24px!important;
+    top: 5px;
+    right: 5px;
+}
+body section#content section.box div#telas ul li .infoTela {
+    width: 100%;
+    float: left;
+    height: 54px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 13px;
+}
+body section#content section.box div#telas ul li a {
+    text-decoration: none;
+    color: #836b98;
+}
